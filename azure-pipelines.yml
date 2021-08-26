@@ -9,7 +9,14 @@ trigger:
 pool: default
 
 pr:
-- main
+ branches:
+   include:
+     - main
+ paths:
+   include:
+     - code
+   exclude:
+     - docs
 
 steps:
 - script: echo Hello, world!
