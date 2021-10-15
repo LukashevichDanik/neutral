@@ -3,34 +3,20 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-# trigger:
-# - main
-
-# pool: default
-
-# pr:
-#  branches:
-#    include:
-#      - main
-#  paths:
-#    include:
-#      - code
-#    exclude:
-#      - docs
-
-# steps:
-# - script: echo Hello, world!
-#   displayName: 'Run a one-line script'
-
-# - script: |
-#     echo Add other tasks to build, test, and deploy your project.
-#     echo See https://aka.ms/yaml
-#   displayName: 'Run a multi-line script'
-
 trigger:
 - main
 
 pool: default
+
+pr:
+ branches:
+   include:
+     - main
+ paths:
+   include:
+     - code
+   exclude:
+     - docs
 
 steps:
 - script: echo Hello, world!
@@ -40,3 +26,17 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+# trigger:
+# - main
+
+# pool: default
+
+# steps:
+# - script: echo Hello, world!
+#   displayName: 'Run a one-line script'
+
+# - script: |
+#     echo Add other tasks to build, test, and deploy your project.
+#     echo See https://aka.ms/yaml
+#   displayName: 'Run a multi-line script'
