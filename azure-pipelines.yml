@@ -13,11 +13,6 @@ pr:
  branches:
    include:
      - main
- paths:
-   include:
-     - code
-   exclude:
-     - docs
 
 steps:
 - script: echo Hello, world!
