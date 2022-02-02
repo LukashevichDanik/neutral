@@ -18,5 +18,3 @@ dsfg
 sdf
 sdfg
 sdf
-sdf
-sdf
