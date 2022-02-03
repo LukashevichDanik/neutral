@@ -14,9 +14,4 @@ dfg
 sdf
 sdf
 sdfg
-zxcv
-sadfd
-sadf
-sss
-asdfdsf
-sdfdsf
+zx
